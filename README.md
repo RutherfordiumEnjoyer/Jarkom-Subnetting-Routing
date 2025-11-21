@@ -20,7 +20,7 @@ Tabel berikut merinci alokasi IP untuk setiap jaringan LAN dan WAN, diurutkan da
 
 ## 3. Tabel Agregasi Rute (CIDR / Supernetting)
 
-Untuk efisiensi routing, rute statis dikonfigurasi menggunakan agregasi rute (supernet) untuk semua LAN di Kantor Pusat[cite: 42].
+Untuk efisiensi routing, rute statis dikonfigurasi menggunakan agregasi rute (supernet) untuk semua LAN di Kantor Pusat.
 
 * Rute Agregasi Kantor Pusat: `10.146.0.0/22` (Mencakup `10.146.0.0` s/d `10.146.3.255`)
 * Rute LAN Kantor Cabang: `10.146.3.192/27`
